@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>เครื่องดื่ม</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Kanit', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fffceb;
+    }
+
+    header {
+      background-color: #ffcb00;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      color: #2d2d2d;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #ffcb00;
+      color: #222;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2em;
+      margin: 30px 0 10px;
+      color: #333;
+    }
+
+    .food-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 0 20px 50px;
+    }
+
+    .food-item {
+      background: #fff9e6;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+      width: 220px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .food-item:hover {
+      transform: translateY(-8px);
+    }
+
+    .food-image {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .food-info {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .food-category {
+      font-size: 0.9rem;
+      color: #888;
+      margin-bottom: 5px;
+    }
+
+    .food-name {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .food-price {
+      font-size: 1.1rem;
+      color: #2c7a7b;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ยินดีต้อนรับสู่ร้านพัณณิตา</h1>
+  </header>
+
+  <nav>
+    <a href="Foodlist.html">🍜 อาหาร</a>
+    <a href="dessert.html">🍮 ขนมหวาน</a>
+    <a href="cake.html">🍰 เค้ก</a>
+    <a href="fruit.html">🍎 ผลไม้</a>
+    <a href="drink.html">🥤 เครื่องดื่ม</a>
+  </nav>
+
+<h1>เครื่องดื่ม</h1>
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="https://www.bluemochatea.com/wp-content/uploads/2019/12/%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%9F%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%A1.jpg" alt="ชาเขียว">
+    <div class="food-info">
+      <div class="food-category">ชาเขียว </div>
+      <div class="food-name">ชาเขียว </div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://aromathailand.com/wp-content/uploads/2024/02/shutterstock_1139687273.jpeg" alt="ชาเย็น">
+    <div class="food-info">
+      <div class="food-category">ชาเย็น</div>
+      <div class="food-name">ชาเย็น</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://s359.kapook.com/pagebuilder/aea20974-a1b8-44d5-be43-c018b6448758.jpg" alt="ชามะนาว">
+    <div class="food-info">
+      <div class="food-category">ชามะนาว</div>
+      <div class="food-name">ชามะนาว</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+   <div class="food-item">
+    <img class="food-image" src="https://www.sgethai.com/wp-content/uploads/2022/06/16042024-pinkmilk-001.webp" alt="นมเย็น">
+    <div class="food-info">
+      <div class="food-category">นมเย็น</div>
+      <div class="food-name">นมเย็น</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+</div><br><br>
+
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="https://s359.kapook.com/r/600/auto/pagebuilder/e0873963-0fa0-4aa2-8c17-3d08f259ba78.jpg" alt="โอเลี้ยง">
+    <div class="food-info">
+      <div class="food-category">โอเลี้ยง</div>
+      <div class="food-name">โอเลี้ยง</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+<div class="food-item">
+    <img class="food-image" src="https://yalamarketplace.com/upload/1630502183992.jpg" alt="ลาเต้">
+    <div class="food-info">
+      <div class="food-category">ลาเต้</div>
+      <div class="food-name">ลาเต้</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://www.nestleprofessional.co.th/sites/default/files/styles/np_recipe_detail/public/2022-04/nestea-black-tea-540x400.jpg?itok=abNXW_oE" alt="ชาดำ">
+    <div class="food-info">
+        <div class="food-category">ชาดำ</div>
+      <div class="food-name">ชาดำ</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+</div>
+
+  <div class="food-item">
+    <img class="food-image" src="https://www.joolzjuice.com/wp-content/uploads/2023/07/%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AA%E0%B9%89%E0%B8%A1.jpg" alt="น้ำส้ม">
+    <div class="food-info">
+      <div class="food-category">น้ำส้ม</div>
+      <div class="food-name">น้ำส้ม</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+</div><br><br>
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="https://1376delivery.com/productimages/3272_Strawberry%20Blossom%20Iced%20Tea.jpg" alt="ชาสตอเบอร์รี่">
+    <div class="food-info">
+      <div class="food-category">ชาสตอเบอร์รี่</div>
+      <div class="food-name">ชาสตอเบอร์รี่</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+<div class="food-item">
+    <img class="food-image" src="https://www.nestleprofessional.co.th/sites/default/files/2022-04/%E0%B9%80%E0%B8%99%E0%B8%AA%E0%B8%97%E0%B8%B5%20%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%A7%E0%B8%99%E0%B9%8C%20%E0%B8%8A%E0%B8%B9%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%20%E0%B8%8A%E0%B8%B2%E0%B8%99%E0%B8%A1%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%A1%E0%B8%B8%E0%B8%81%E0%B8%97%E0%B9%87%E0%B8%AD%E0%B8%9B%E0%B8%9B%E0%B8%B4%E0%B9%89%E0%B8%87%E0%B9%82%E0%B8%9F%E0%B8%A1%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%8A%E0%B8%B5%E0%B8%AA%20%28%E0%B9%80%E0%B8%A2%E0%B9%87%E0%B8%99%29.png" alt="ชานมบราวน์ชูการ์">
+    <div class="food-info">
+      <div class="food-category">ชานมบราวน์ชูการ์</div>
+      <div class="food-name">ชานมบราวน์ชูการ์</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+<div class="food-item">
+    <img class="food-image" src="https://s359.kapook.com/pagebuilder/c1215810-407d-45b2-83ca-a61eee10d39e.jpg" alt="โกโก้">
+    <div class="food-info">
+      <div class="food-category">โกโก้</div>
+      <div class="food-name">โกโก้</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+<div class="food-item">
+    <img class="food-image" src="https://blog.allonline.7eleven.co.th/wp-content/uploads/2024/11/%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F%E0%B9%80%E0%B8%A2%E0%B9%87%E0%B8%99.png" alt="กาแฟ">
+    <div class="food-info">
+      <div class="food-category">กาแฟ</div>
+      <div class="food-name">กาแฟ</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

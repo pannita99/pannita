@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>อาหาร</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Kanit', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fffceb;
+    }
+
+    header {
+      background-color: #ffcb00;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      color: #2d2d2d;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #ffcb00;
+      color: #222;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2em;
+      margin: 30px 0 10px;
+      color: #333;
+    }
+
+    .food-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 0 20px 50px;
+    }
+
+    .food-item {
+      background: #fff9e6;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+      width: 220px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .food-item:hover {
+      transform: translateY(-8px);
+    }
+
+    .food-image {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .food-info {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .food-category {
+      font-size: 0.9rem;
+      color: #888;
+      margin-bottom: 5px;
+    }
+
+    .food-name {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .food-price {
+      font-size: 1.1rem;
+      color: #2c7a7b;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ยินดีต้อนรับสู่ร้านพัณณิตา</h1>
+  </header>
+
+  <nav>
+    <a href="Foodlist.html">🍜 อาหาร</a>
+    <a href="dessert.html">🍮 ขนมหวาน</a>
+    <a href="cake.html">🍰 เค้ก</a>
+    <a href="fruit.html">🍎 ผลไม้</a>
+    <a href="drink.html">🥤 เครื่องดื่ม</a>
+  </nav>
+
+
+<h1>รายการอาหาร</h1>
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\ต้มยำกุ้ง.jpg" alt="ต้มยำกุ้ง">
+    <div class="food-info">
+      <div class="food-category">ต้มยำกุ้ง</div>
+      <div class="food-name">ต้มยำกุ้ง</div>
+      <div class="food-price">ราคา 120 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\ผัดไทย.jpg" alt="ผัดไทย">
+    <div class="food-info">
+      <div class="food-category">ผัดไทย</div>
+      <div class="food-name">ผัดไทย</div>
+      <div class="food-price">ราคา 50 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\ส้มตำ.jpg" alt="ส้มตำ">
+    <div class="food-info">
+      <div class="food-category">ส้มตำ</div>
+      <div class="food-name">ส้มตำ</div>
+      <div class="food-price">ราคา 65 บาท</div>
+    </div>
+  </div>
+
+   <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\แกงเขียวหวาน.jpg" alt="แกงเขียวหวาน">
+    <div class="food-info">
+      <div class="food-category">แกงเขียวหวาน</div>
+      <div class="food-name">แกงเขียวหวาน</div>
+      <div class="food-price">ราคา 50 บาท</div>
+    </div>
+  </div>
+</div><br><br>
+
+
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\แกงมัสมั่น.jpg" alt="แกงมัสมั่น">
+    <div class="food-info">
+      <div class="food-category">แกงมัสมั่น</div>
+      <div class="food-name">แกงมัสมั่น</div>
+      <div class="food-price">ราคา 50 บาท</div>
+    </div>
+  </div>
+
+<div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\ข้าวผัด.jpg" alt="ข้าวผัด">
+    <div class="food-info">
+      <div class="food-category">ข้าวผัด</div>
+      <div class="food-name">ข้าวผัด</div>
+      <div class="food-price">ราคา 65 บาท</div>
+    </div>
+  </div>
+
+  <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\ไก่ทอด.jpg" alt="ปีกไก่ทอด">
+    <div class="food-info">
+        <div class="food-category">ปีกไก่ทอด</div>
+      <div class="food-name">ปีกไก่ทอด</div>
+      <div class="food-price">ราคา 60 บาท</div>
+    </div>
+</div>
+
+  <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\ข้าวมันไก่.jpg" alt="ข้าวมันไก่">
+    <div class="food-info">
+      <div class="food-category">ข้าว</div>
+      <div class="food-name">ข้าวมันไก่</div>
+      <div class="food-price">ราคา 70 บาท</div>
+    </div>
+  </div>
+</div><br><br>
+
+<div class="food-list">
+  <div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\ข้าวขาหมู.jpg" alt="ข้าวขาหมู">
+    <div class="food-info">
+      <div class="food-category">ข้าวขาหมู</div>
+      <div class="food-name">ข้าวขาหมู</div>
+      <div class="food-price">ราคา 65 บาท</div>
+    </div>
+  </div>
+
+<div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\ลาบหมู.jpg" alt="ลาบหมู">
+    <div class="food-info">
+      <div class="food-category">ลาบหมู</div>
+      <div class="food-name">ลาบหมู</div>
+      <div class="food-price">ราคา 45 บาท</div>
+    </div>
+  </div>
+
+<div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\น้ำตกหมู.jpg" alt="น้ำตกหมู">
+    <div class="food-info">
+      <div class="food-category">น้ำตกหมู</div>
+      <div class="food-name">น้ำตกหมู</div>
+      <div class="food-price">ราคา 60 บาท</div>
+    </div>
+  </div>
+
+<div class="food-item">
+    <img class="food-image" src="c:\Users\hp\Downloads\กะเพราหมูสับ.jpg" alt="กระเพราหมูสับ">
+    <div class="food-info">
+      <div class="food-category">กะเพราหมูสับ</div>
+      <div class="food-name">กระเพราหมูสับ</div>
+      <div class="food-price">ราคา 60 บาท</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
