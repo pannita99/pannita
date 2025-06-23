@@ -1,64 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <style>
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      background-color: #ddd;
-      padding: 10px;
+    .flex-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #f2f2f2;
+      height: 100px;
     }
-    .grid-item {
-      background-color: #2196F3;
+    .flex-item {
+      background-color: #b682f1;
       color: white;
       padding: 20px;
+      margin: 5px;
       border-radius: 8px;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .grid-item img {
-      max-width: 80px;
-      height: auto;
-      margin-bottom: 10px;
-      border-radius: 4px;
-    }
-    .menu-name {
-      font-size: 1.2em;
-      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <h2>CSS Grid Example with Images and Menu Names</h2>
-  <div class="grid-container">
-    <div class="grid-item">
-      <img src="c:\Users\hp\Pictures\รูปภาพงาน pannita\ดอกไม้2.jpg" alt="Menu 1" />
-      <div class="menu-name">เมนู 1</div>
-    </div>
-    <div class="grid-item">
-      <img src="c:\Users\hp\Pictures\รูปภาพงาน pannita\ดอกไม้2.jpg" alt="Menu 2" />
-      <div class="menu-name">เมนู 2</div>
-    </div>
-    <div class="grid-item">
-      <img src="c:\Users\hp\Pictures\รูปภาพงาน pannita\ดอกไม้2.jpg" alt="Menu 3" />
-      <div class="menu-name">เมนู 3</div>
-    </div>
-    <div class="grid-item">
-      <img src="c:\Users\hp\Pictures\รูปภาพงาน pannita\ดอกไม้2.jpg" alt="Menu 4" />
-      <div class="menu-name">เมนู 4</div>
-    </div>
-    <div class="grid-item">
-      <img src="c:\Users\hp\Pictures\รูปภาพงาน pannita\ดอกไม้2.jpg" alt="Menu 5" />
-      <div class="menu-name">เมนู 5</div>
-    </div>
-    <div class="grid-item">
-      <img src="c:\Users\hp\Pictures\รูปภาพงาน pannita\ดอกไม้2.jpg" alt="Menu 6" />
-      <div class="menu-name">เมนู 6</div>
-    </div>
+  <h2>Flexbox Example</h2>
+  <div class="flex-container">
+    <div class="flex-item">Item 1</div>
+    <div class="flex-item">Item 2</div>
+    <div class="flex-item">Item 3</div>
   </div>
 </body>
 </html>
