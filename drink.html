@@ -44,9 +44,19 @@
     }
 
     nav a:hover {
-      background-color: #99e0fc;
+      background-color: #dd6060;
       color: #222;
     }
+
+    nav {
+   background-color: #5c5b5b;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 0;
+   text-align: center;
+   }
+
 
     .section-title {
       text-align: center;
@@ -102,7 +112,7 @@
 
     .food-price {
       font-size: 1.1rem;
-      color: #2c7a7b;
+      color: #7b2c70;
       font-weight: bold;
     }
 
@@ -153,6 +163,8 @@
       align-items: center;
     }
 
+    .mySlides {display:none;}
+
   </style>
 </head>
 <body>
@@ -194,12 +206,35 @@
 </div>
 
   <nav>
-    <a href="Foodlist.html">🍚 อาหาร</a>
-    <a href="dessert.html">🍨 ขนมหวาน</a>
-    <a href="cake.html">🎂 เค้ก</a>
-    <a href="fruit.html">🍇 ผลไม้</a>
-    <a href="drink.html">🍹 เครื่องดื่ม</a>
+    <a href="Foodlist.html">อาหาร</a>
+    <a href="dessert.html">ขนมหวาน</a>
+    <a href="cake.html">เค้ก</a>
+    <a href="fruit.html">ผลไม้</a>
+    <a href="drink.html">เครื่องดื่ม</a>
   </nav>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<div class="w3-content w3-display-container" style="max-width:1920px; height:600px; position:relative;">
+  <img class="mySlides" src="c:\Users\hp\Downloads\โปรโมชั่น 1.jpg" style="width:100%; height:600px; object-fit:cover;">
+  <img class="mySlides" src="c:\Users\hp\Downloads\โปรโมชั่น 2.jpg" style="width:100%; height:600px; object-fit:cover;">
+  <img class="mySlides" src="c:\Users\hp\Downloads\โปรโมชั่น 3.jpg" style="width:100%; height:600px; object-fit:cover;">
+  <img class="mySlides" src="c:\Users\hp\Downloads\โปรโมชั่น 4.jpg" style="width:100%; height:600px; object-fit:cover;">
+  <img class="mySlides" src="c:\Users\hp\Downloads\โปรโมชั่น 5.jpg" style="width:100%; height:600px; object-fit:cover;">
+  <!-- ปุ่มลูกศรด้านข้าง -->
+
+  <!-- ปุ่มลูกศรด้านข้าง -->
+  <div class="w3-display-left w3-xxlarge w3-hover-text-khaki" style="cursor:pointer; top:50%; transform:translateY(-50%)" onclick="plusDivs(-1)">&#10094;</div>
+  <div class="w3-display-right w3-xxlarge w3-hover-text-khaki" style="cursor:pointer; top:50%; transform:translateY(-50%)" onclick="plusDivs(1)">&#10095;</div>
+
+  <!-- จุดบอกตำแหน่งภาพ -->
+  <div class="w3-center w3-display-bottommiddle" style="bottom:16px;">
+    <span class="w3-badge demo" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo" onclick="currentDiv(3)"></span>
+  </div>
+</div>
 
 <h1>เครื่องดื่ม</h1>
 
@@ -213,7 +248,7 @@
     </div>
   </div>
 
-  <div class="food-item">
+<div class="food-item">
     <img class="food-image" src="c:\Users\hp\Pictures\รูปภาพงาน pannita\ชาดำ.jpg" alt="ชาดำ">
     <div class="food-info">
       <div class="food-category">ชาดำ</div>
@@ -317,6 +352,84 @@
     </div>
   </div>
 </div>
+
+<!-- Footer Section -->
+<footer style="background-color: #a885fa; color: white; padding: 40px 20px; font-family: sans-serif;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 1200px; margin: auto;">
+
+    <!-- เกี่ยวกับเรา -->
+    <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <img src="c:\Users\hp\Pictures\รูปภาพงาน pannita\โลโก้.jpg" style="width: 50px; margin-bottom: 10px;">
+      <h3>เกี่ยวกับเรา</h3>
+      <ul style="list-style: none; padding: 0;">
+        <li>รู้จักร้านอาหาร</li>
+        <li>ร่วมงานกับเรา ร้านอาหาร</li>
+        <li>ร่วมธุรกิจกับร้านอาหาร</li>
+        <li>ก่อตั้งเมื่อ 25 มีนาคม 2568</li>
+        <li>เวลาเปิด-ปิด 08:00-20:00 หยุดทุกวันอาทิตย์</li>
+        <li>ที่อยู่ร้าน 991/1 ถ. พระรามที่ 1 แขวงปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330</li>
+      </ul>
+    </div>
+
+    <!-- ช่วยเหลือ -->
+    <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <h3>ช่วยเหลือ</h3>
+      <ul style="list-style: none; padding: 0;">
+        <li>คำถามที่พบบ่อย</li>
+        <li>คอลเซ็นเตอร์ 02-452-5319</li>
+        <li>บริการสมาชิก 02-741-1537</li>
+        <li>ติดต่อเรา</li>
+      </ul>
+    </div>
+
+    <!-- ติดตามเรา -->
+    <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <h3>ติดตามเรา</h3>
+      <div style="margin-bottom: 10px;">
+        <span style="margin-right: 10px;">📘</span>
+        <span style="margin-right: 10px;">🐦</span>
+        <span style="margin-right: 10px;">📺</span>
+        <span style="margin-right: 10px;">📸</span>
+        <span>💬</span>
+      </div>
+      <p>รับโปรโมชั่นและดีลพิเศษก่อนใคร</p>
+      <form>
+        <input type="email" placeholder="ใส่อีเมลของคุณ" style="padding: 8px; border: none; border-radius: 5px;">
+        <button style="padding: 8px 12px; border: none; background: white; color: #006241; border-radius: 5px;">เข้าร่วม</button>
+      </form>
+    </div>
+
+   
+    <!-- ดาวน์โหลดแอป -->
+    <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <h3>ดาวน์โหลดแอป</h3>
+      <img src="c:\Users\hp\Downloads\foodpanda2-removebg-preview.png" alt="foodpanda" style="width: 100px; margin-bottom: 10px;">
+      <div>
+      <img src="c:\Users\hp\Pictures\รูปภาพงาน pannita\ไลน์แมน.png" alt="Lineman" style="width: 120px; margin-bottom: 5px;"><br>
+      <img src="c:\Users\hp\Pictures\รูปภาพงาน pannita\Grabfood.png" alt="GrabFood" style="width: 120px; margin-bottom: 5px;"><br>
+      <img src="c:\Users\hp\Pictures\รูปภาพงาน pannita\ShopeeFood1.png" alt="ShopeeFood" style="width: 120px;">
+      </div>
+    </div>
+
+  </div>
+</footer>
+  
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 
 </body>
 </html>
